@@ -15,7 +15,7 @@ public class Rockpaperscissorgame {
         int computerInput = random.nextInt(3);
 
         if (userInput == computerInput) {
-            System.out.println("Draw");
+            System.out.println("Ohh!Draw");
         }
         else if (userInput == 0 && computerInput == 2 || userInput == 1 && computerInput == 0
                 || userInput == 2 && computerInput == 1) {
