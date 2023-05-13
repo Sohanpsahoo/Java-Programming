@@ -10,7 +10,7 @@ public class Whileloop {
             System.out.println(i);
             i++;
         }
-        System.out.println("Finish Running While Loop!");
+        System.out.println("Finish Running the While Loop!");
     }
 }
 
