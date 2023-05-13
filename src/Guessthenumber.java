@@ -29,7 +29,7 @@ class Game{
         this.number = rand.nextInt(100);
     }
     void takeUserInput(){
-        System.out.println("Guess the number");
+        System.out.println("Guess the number please");
         Scanner sc = new Scanner(System.in);
         inputNumber = sc.nextInt();
     }
