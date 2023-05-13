@@ -1,0 +1,13 @@
+1. WAP to print the sum of three numbers
+2. WAP to calculate CGPA using marks of three subjects.
+Ans: float sub1 = 35;
+     float sub2 = 98;
+     float sub3 = 56;
+     float cgpa = (sub1+sub2+sub3)/30;
+     System.out.println(cgpa);
+
+3.WAP to convet km to m.
+4.WAP to detect whether a number entered by the user is Integer or not.
+Ans: System.out.println("Enter your number");
+      Scanner sc = new Scanner(System.in);
+      System.out.println(sc.hasNextInt());

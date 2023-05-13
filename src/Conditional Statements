@@ -1,0 +1,58 @@
+Decision-making instructions in Java
+1. If-Else Statement
+2. Switch Statement
+
+1. If-Else Statement
+
+Syntax of If-else statement in Java :
+
+/* if (condition-to-be-checked) {
+	statements-if-condition-true;
+}
+else {
+	statements-if-condition-false;
+} */
+
+Example:
+int a = 29;
+if (a>18) {
+	System.out.println(“You can drive”);
+}
+else{
+       System.out.println(“You are underage!");
+}
+Output:
+You can drive
+
+
+                              OR
+
+   int age = 18;
+   boolean cond = (age==18);
+   if(cond){
+           System.out.println("Yes boy you can drive");
+     }
+     else{
+          System.out.println("No boy you cannot drive yet!");
+      }
+
+
+2. If-else ladder :
+Instead of using multiple if statements, we can also use else if along with if thus forming an if-else-if-else ladder.
+Using such kind of logic reduces indents.
+Last else is executed only if all the conditions fail.
+/* if (condition1) {
+
+            //Statements;
+
+else if {
+
+            // Statements;
+
+}
+
+else {
+
+            //Statements
+
+} */
